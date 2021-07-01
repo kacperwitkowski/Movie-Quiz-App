@@ -1,0 +1,1259 @@
+ [
+    {
+      "question": "Who was the villain in Batman The Dark Knight Rises (2012)?",
+      "answers": ["Joker","Bane","Penguin","Riddler"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "What’s the name of the skyscraper in Die Hard?",
+      "answers": ["Nakatomi Plaza", "Central Plaza", "All Crown Plaza", "Aon Center"],
+      "goodAnswer": 0   
+     },
+    {
+      "question": "For what movie did Steven Spielberg win his first Oscar for Best Director?",
+      "answers": ["Schindler’s List", "Jurassic Park", "Titanic", "Saving Private Ryan"],
+      "goodAnswer": 0    
+    },
+    {
+      "question": "Who played the Green Goblin in 2002 box-office smash Spider-Man?",
+      "answers": ["Steve Blum", "Tom Holland", "Toby Maguire", "Willem Dafoe"],
+      "goodAnswer": 3    },
+    {
+      "question": "What make of car has been used by James Bond the most times in the Bond franchise?",
+      "answers": ["Ford Mustang", "Bentley Mark IV", "Aston Martin DB5", "Toyota 2000 GT"],
+      "goodAnswer": 2   
+     },
+    {
+      "question": "Gladiator was one of the major films released in 2000, who was the director?",
+      "answers": ["Peter Jackson", "Ridley Scott", "Christopher Nolan", "Clint Eastwood"],
+      "goodAnswer": 1   
+     }, 
+     {
+      "question": "What is the name of the elf played by Will Ferrell in the 2003 film Elf?",
+      "answers": ["Shiney", "Bunny", "Bushy", "Buddy"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "What was the name of Lord Voldemort's loyal snake?",
+      "answers": ["Narcissa", "Serpent", "Nagini", "Nympha"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "What relation was Sirius Black to Harry (Potter)?",
+      "answers": ["Godfather", "Uncle", "Cousin", "Brother"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "Who directed the 'Lord Of The Rings' trilogy?",
+      "answers": ["Peter Jackson", "James Cameron", "Michael Bay", "David Lynch"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "What is Bilbo’s home called?",
+      "answers": ["Bag Shot", "Overhill", "Bag End", "Bag Wood"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "What is the main job of R2-D2 (Star Wars)?",
+      "answers": ["Nurse", "Navigator", "Fighter Pilot", "Mechanic"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "Which character in Star Wars says “Help me, Obi-Wan Kenobi”?",
+      "answers": ["Luke Skywalker", "Princess Leia", "Han Solo", "Mace Windu"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Luke Skywalker (Star Wars) was raised on which planet?",
+      "answers": ["Tatooine", "Hoth", "Naboo", "Coruscant"],
+      "goodAnswer": 0
+    },    {
+      "question": "Who is the creator of the Star Wars series?",
+      "answers": ["Christopher Nolan", "George Lucas", "Robin Williams", "Steven Spielberg"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "What is the name of the 'Breaking Bad' spinoff film?",
+      "answers": ["Breaking Good", "Breaking Bad Again", "El Camino: A Breaking Bad Movie", "Better Call Saul"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Where is the story of 'Breaking Bad' set?",
+      "answers": ["Denver, Colorado", "San Diego, California", "San Antonio, Texas", "Albuquerque, New Mexico"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "What instrument does Lisa (The Simpsons) usually play?",
+      "answers": ["Piano", "Saxophone", "Flute", "Violin"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "How old is Rick (Rick and Morty's)?",
+      "answers": ["70", "62", "90", "83"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "What is the Simpsons’ dog’s name?",
+      "answers": ["Snowball", "Homer", "Coltrane", "Santa’s Little Helper"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "Which sauce is Rick obsessed with in Rick and Morty?",
+      "answers": ["Béchamel Sauce", "BBQ Sauce", "Szechuan Sauce", "Hollandaise Sauce"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "What does Jake attempt to steal from Holt in the first Halloween episode (Brooklyn 99)?",
+      "answers": ["Watch", "Medal of Valour", "Crown", "Cummerbund"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "What was Lincoln Burrows (Prison Break) accused of doing?",
+      "answers": ["Killing the vice president", "Killing the vice president brother", "Robbery", "Fraud"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "What is the name of the prison (Prison Break)?",
+      "answers": ["River State Jail", "Fox State Penitentiary", "River Side Penitentiary", "Fox River State Penitentiary"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "Which president did Forrest Gump not meet?",
+      "answers": ["Kennedy", "Nixon", "Reagan", "Johnson"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "What college did Forrest play football for?",
+      "answers": ["Tennessee", "Alabama", "Arkansas", "Mississippi"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "What is Penguin real name in Batman?",
+      "answers": ["Oswald Cobblepot", "Jack Napier", "Harvey Bullock", "Jerome Valaska"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "What character has Doc Connors (Spiderman) changed into?",
+      "answers": ["Mysterio", "Venom", "The Lizard", "Doc Octopus"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "What city does peaky blinders take place?",
+      "answers": ["Leeds", "Liverpool", "Glasgow", "Birmingham"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "What's the name of Tommy Shelby (Peaky Blinders) horse?",
+      "answers": ["Shadow", "Grace's Secret", "White Pearl", "White Lord"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "What is Fry's (Futurama) first name?",
+      "answers": ["Phillip", "Will", "John", "Peter"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "What, exactly, was Leela (Futurama)?",
+      "answers": ["Human", "Alien", "Mutant", "Octopus"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Which cartoon company created The Flintstones?",
+      "answers": ["Warner Brothers", "Disney", "Goldcrest", "Hanna-Barbera"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Where do the Flintstones live?",
+      "answers": ["Stonehill", "Rockridge", "Bedrock", "Shaletown"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Michael Jordan (Space Jam) retires from basketball to become a...",
+      "answers": ["Full time dad", "Baseball player", "Professional golfer", "Actor"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "What is Brooks's job at the prison (The Shawshank Redemption)?",
+      "answers": ["He's warden's assistant", "He runs the kitchen", "He doesn't have a job", "He runs the library"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Where do Andy and Red reunite (The Shawshank Redemption)?",
+      "answers": ["Prison", "Fort Hancock", "Beach Bar", "The don't"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Who directed the 2019 film the Joker?",
+      "answers": ["Todd Phillips", "Tim Burton", "Timothy Dolan", "Phillip Tod"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "Which 1995 film marked the first time Al Pacino and Robert De Niro appeared on film together?",
+      "answers": ["Meet The Fockers", "Heat", "The Devil's Advocate", "The Godfather 2"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Which 1997 film was the first movie with a $200,000,000 budget?",
+      "answers": ["Titanic", "Men In Black", "L.A Confidental", "Face/Off"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "Game of Thrones is an adaptation of the novels of which author?",
+      "answers": ["George R. R. Martin", "J. R. R. Tolkien", "J. K. Rowling", "C. S. Lewis"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "Which character is Viola Davis portraying in “How to get away with murder”?",
+      "answers": ["Michaela Pratt", "Annalise Keating", "Bonnie Winterbottom", "Laurel Castillo"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "In which Netflix series can you see the manipulative effects of cutting edge technology?",
+      "answers": ["House of cards", "Elite", "Stranger Things", "Black Mirror"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "Which of these actors did NOT appear in 'Pulp Fiction'?",
+      "answers": ["Samuel L. Jackson", "Uma Thurman", "John Turturro", "Bruce Willis"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "For which of these movies did Leonardo DiCaprio win an Oscar for Best Actor?",
+      "answers": ["The Revenant", "Blood Diamond", "Titanic", "The Last King of Scotland"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "In the 'Godfather' series, where was Vito Corleone born?",
+      "answers": ["New York City", "Athens", "Rome", "Sicily"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Where is the Temple of Doom in 'Indiana Jones and the Temple of Doom'?",
+      "answers": ["South America", "India", "Mongolia", "China"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "What was the first movie in the Marvel Cinematic Universe (MCU)?",
+      "answers": ["The Avengers", "Hulk", "Iron Man", "Spider Man"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "What annual awards ceremony honors the year's worst movies, actors, etc...?",
+      "answers": ["The Oscars", "The Golden Raspberries", "The Rotten Tomatoes", "The Smurfs"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "Which of the following actors NEVER starred as the Joker?",
+      "answers": ["Jack Nicholson", "Joaquin Phoenix", "Jim Carrey", "Heath Ledger"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "Which of the following movies helped make Steve Guttenberg a star?",
+      "answers": ["Police Academy", "3 Men and a baby", "Porky's", "The Color Purple"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "What was the title of fast and furious 3",
+      "answers": ["Tokyo Drift", "Havana Nights", "Electric Boogaloo", "Rio Heist"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "What animated feature film was chosen as a 2009 Golden Globe winner?",
+      "answers": ["Kung Fu Panda", "WALL-E", "Scooby Doo and Samurai Sword", "Bolt"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Which movie did Tom Hanks NOT star in?",
+      "answers": ["Apollo 13", "The Green Mile", "Forrest Gump", "Groundhog Day"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Which legendary actor refused to accept his Academy Award for best actor in 1972 for 'The Godfather?'",
+      "answers": ["Robert Duvall", "Marlon Brando", "Al Pacino", "James Caan"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "What was the first animated feature film produced in America?",
+      "answers": ["Mighty Mouse", "Bambi", "Roundhay Garden Scene", "Snow White and the Seven Dwarfs"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Which of the following is NOT one of Daenerys's (Game of Thrones) dragons?",
+      "answers": ["Drogon", "Viserion", "Aegon", "Rhaegal"],
+      "goodAnswer": 2    
+    }, 
+    {
+      "question": "Who brought Jon Snow (Game of Thrones) back from the dead?",
+      "answers": ["Melisandre", "Jaqen H'ghar", "Brandon Stark", "The Children of the Forest"],
+      "goodAnswer": 0    
+    },
+    {
+      "question": "Who starred in that movies: 'Fight Club', 'Se7en', 'Inglourious Basterds'?",
+      "answers": ["Vin Diesel", "Brad Pitt", "Jamie Foxx", "Sean Penn"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Who starred in that movies: 'The Shining', 'The Departed', 'Chinatown'?",
+      "answers": ["Jackie Chan", "Cate Blanchett", "Sean Penn", "Jack Nicholson"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Who starred in that movies: 'Suicide Squad', 'Dallas Buyers Club', 'Requiem for a Dream'?",
+      "answers": ["Colin Firth", "Jared Leto", "Humphrey Bogart", "Sally Field"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "In what movie man leans backward to dodge bullets in slow-mo",
+      "answers": ["The Dark Knight", "The Godfather", "The Matrix", "Pulp Fiction"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "In which of this James Bond movies Daniel Craig did NOT play?",
+      "answers": ["Casino Royale", "Quantum of Solace", "GoldenEye", "Skyfall"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "Who starred in that movies: 'Maid in Manhattan', 'The Wedding Planner', 'Gigli'?",
+      "answers": ["Jennifer Aniston", "Hilary Swank", "Paris Hilton", "Jennifer Lopez"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "How many seasons of the TV show 'friends' were record?",
+      "answers": ["9", "10", "12", "13"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "What nationality is Hannibal Lecter?",
+      "answers": ["Lithuanian", "American", "Bulgarian", "Russian"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "Who plays the main role in the 'The Da Vinci Code'?",
+      "answers": ["Nicholas Cage", "Tom Hanks", "Johnny Depp", "Robert Downey Junior"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "What did Depp seriously changed in his look for the role of Jack Sparrow (Pirates of the Caribbean)?",
+      "answers": ["Hair", "Lips", "Nose", "Teeth"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "What is the name of Jack Sparrow's (Pirates of the Caribbean) ship?",
+      "answers": ["Flying Dutchman", "Barbossa", "Black Pearl", "Tortuga"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "What year did the first Indiana Jones movie was released?",
+      "answers": ["1981", "1984", "1991", "1994"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "What year was the 300 movie got released in the United States?",
+      "answers": ["2004", "2007", "2009", "2010"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "The movie '300' is a war story about which famous conflict?",
+      "answers": ["World War II", "Syrian Civil War", "American Civil War", "Persian Wars"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Who was the first man to walk on the Moon (Apollo 13)?",
+      "answers": ["Jim Lovell", "Gus Gresson", "Neil Armstrong", "Buzz Aldrin"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Where did the Apollo 13 launch?",
+      "answers": ["Texas", "Florida", "North Carolina", "Washington"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Who was the main character of the movie 'Se7en?'",
+      "answers": ["Eli Gould", "Wills Somerset", "William Somerset", "Tracy Mills"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "In which of this movies Morgan Freeman did NOT play?",
+      "answers": ["Scorpion King", "Million Dollar Baby", "Glory", "Bruce Almight"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "What was the name of the Ghostbuster's official car?",
+      "answers": ["The Spirit Knocker", "The Ghostmobile", "The Destroyer", "The Ectomobile"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "'I'll be back.' It's a famous quotes from which movie?",
+      "answers": ["Armageddon", "The Terminator", "The Matrix", "Robo Cop"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Who was the main actor of the movie Thor?",
+      "answers": ["Chris Hemsworth", "Robert Downey Jr", "Ben Affleck", "Samuel L. Jackson"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "How many parts of Kac Vegas were released?",
+      "answers": ["1", "2", "3", "4"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "In Space Jam, the Tune Squad plays against which team?",
+      "answers": ["Chaos Squad", "Monstars", "Destroyers", "Trouble Makerz"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "In 'Home Alone 2: Lost in New York', Kevin checks into which iconic hotel?",
+      "answers": ["The Four", "St. Regis", "Hilton", "The Plaza"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "In which of these films did Harrison Ford play?",
+      "answers": ["Raiders of the Lost Ark", "The Graduate", "Jurassic Park", "JFK"],
+      "goodAnswer": 0
+    },  
+    {
+      "question": "In which of these films did Mel Gibson play?",
+      "answers": ["X-Men", "Phone Booth", "Mad Max", "The Nice Guys"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "In which of these films did Will Smith play?",
+      "answers": ["Snakes on a Plane", "I, Robot", "Eyes Wide Shut", "Man on Fire"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "In which of these films did Julia Roberts play?",
+      "answers": ["Monte Carlo", "Leap Year", "Mean Girls", "Ocean's Twelve"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "In which of these films did Arnold Schwarzenegger play?",
+      "answers": ["True Lies", "Die Hard", "King Kong", "I Am Legend"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "'Hasta la vista, baby.' In which movie was this quote said?",
+      "answers": ["Aliens", "Anaconda", "Terminator 2", "Predator"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "'I see dead people.' In which movie was this quote said?",
+      "answers": ["First Blood", "The Sixth Sense", "Ghost", "Scarface"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Who was the director of 'Dr. Strangelove (1964)'?",
+      "answers": ["Stanley Kubrick", "Terry Gilliam", "Akira Kurosawa", "Billy Wilder"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "Who was the director of 'Blade Runner (1982)'?",
+      "answers": ["James Cameroon", "Ridley Scott", "Steven Spielberg", "William Friedkin"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Who was the director of 'Argo (2012)'?",
+      "answers": ["George Clooney", "Steve McQueen", "Clint Eastwood", "Ben Affleck"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "In which city is the action of the film 'In Bruges (2008)' taking place?",
+      "answers": ["Amsterdam", "Bruges", "Barcelona", "Brussels"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Who played two main roles in the movie 'Nice Guys (2016)'?",
+      "answers": ["Kurt Russell/Bradley Cooper", "Bruce Willis/Ryan Reynolds", "Russell Crowe/Ryan Gosling", "Russell Crowe/Kurt Russell"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "Which Alfred Hitchcock movie features the famous shower murder scene that has made history?",
+      "answers": ["North by Northwest", "Rebecca", "The Birds", "Psycho"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "What movie won the Oscar in 2016?",
+      "answers": ["Spotlight", "The Revenant", "Bridge of Spies", "American Hustle"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "What was the first Star Wars movie to be released in theaters?",
+      "answers": ["Episode 1: The Phantom Menace", "Rogue One: A Star Wars Story", "An Ewok Adventure ", "Episode IV: A New Hope"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "What is the name of the actor who portrays 'Borat' and 'Ali G'?",
+      "answers": ["Sacha Baron Cohen", "Jim Carrey", "Will Ferel", "Daniel Day-Lewis"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "Which of the movies was NOT directed by Stanley Kubrick?",
+      "answers": ["Eyes Wide Shut", "Robocop", "2001 A Space Odyssey", "A Clockwork Orange"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Which of the following movies won the Oscar for Best Picture at the 2019 Academy Awards? ",
+      "answers": ["Green Book", "Bohemian Rhapsody", "Black Panther", "A Star Is Born"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "In what movie franchise does Will Smith portray the role of 'Agent J'?",
+      "answers": ["Guardians of the Galaxy", "The Matrix", "I, Robot", "Men in Black"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "Denzel Washington won the Oscar for Best Actor in a Leading Role for his performance in what film?",
+      "answers": ["The Manchurian Candidate", "The Book of Eli", "Training Day", "The Hurricane"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "What is the name of the secret government agency in 'Men in Black'?",
+      "answers": ["The Alien Squad","MIB","Galaxy Soldiers", "The Defenders"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Clint Eastwood gave us the immortal line, 'Go ahead... make my day', in what film?",
+      "answers": ["Sudden Impact", "Magnum Force", "Tightrope", "Dirty Harry"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "In the Friday the 13th movies, what is the name of the masked killer?",
+      "answers": ["He has no name", "Freddy", "John", "Jason"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "According to Forrest Gump, “life was like…”",
+      "answers": ["A handful of roses", "A box of chocolates", "A bag of lemons", "A lollipop"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "The Powerpuff Girls are 3 distinct colors. What are they?",
+      "answers": ["Red, yellow, green", "Yellow, blue, green", "Blue, green, red", "Green, purple, orange"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "After The Simpsons, what is the longest-running TV show in America?",
+      "answers": ["Grey’s Anatomy", "NCIS", "Criminal Minds", "Law & Order"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "In which decade does the Netflix series Stranger Things take place?",
+      "answers": ["the early 2000s", "the ‘90s", "the ‘70s", "the ‘80s"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "The Da Vinci Code opens with a murder in which museum?",
+      "answers": ["The Louvre", "The Guggenheim", "The Van Gogh museum", "The Metropolitan Museum of Art"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "Which popular Disney show was Miley Cyrus part of?",
+      "answers": ["Two Broke Girls", "Hannah Montanna", "Friends", "Live it like Beckham"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "Joey is the popular character of which television series?",
+      "answers": ["Rampage", "Grey’s Anatomy", "Friends", "How I met your mother"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "What does Samuel L. Jackson play in the 2000 film 'Shaft'?",
+      "answers": ["Jonah Shaft", "John Shaft", "Wade Shaft", "Eddy Shaft"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "What is the name of the song that is known as the theme from Rocky?",
+      "answers": ["Victory","Gonna Fly Now","Eye of the Tiger", "You can't tell"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Which of these lines did NOT come from 'Monty Python and the Holy Grail'?",
+      "answers": ["We want.. a shrubbery!", "Bring out yer dead!", "You killed my father. Prepare to die.", "It's just a flesh wound"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "What TV series has won most Emmy Awards?",
+      "answers": ["Frasier", "ER", "The Simpsons", "Game of Thrones"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "What actor starred as Dexter?",
+      "answers": ["Jake Gyllenhaal", "Michael C. Hall", "Ethan Hawke", "Christian Bale"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "On which TV channel did dexter originally appear?",
+      "answers": ["Showtime", "ABC", "HBO", "NBC"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "Who plays Tony Soprano in The Sopranos?",
+      "answers": ["Al Pacino", "Robert De Niro", "James Gandolfini", "Marlon Brando"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Which female actress won the most Oscars?",
+      "answers": ["Jodie Foster", "Angelina Jolie", "Hilary Swank", "Katharine Hepburn"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "Who is the main actress in the 'Titanic'?",
+      "answers": ["Kate Winslet", "Eva Longoira", "Jennifer Lopez", "Angelina Jolie"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "In which 1986 classic does Tom Cruise play a navy pilot?",
+      "answers": ["Rain Man", "Top Gun", "Mission Impossible", "Risky Business"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "Which actress appears in Juno, Flatliners and Inception?",
+      "answers": ["Mila Kunis", "Nina Dobrev", "Ellen Page", "Marion Cotillard"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Which Welsh actor starred with Jodie Foster in “The Silence of the Lambs”",
+      "answers": ["John Rhys-Davies", "Luke Evans", "Tom Hanks", "Anthony Hopkins"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "What color of pill did neo take in 'The Matrix'?",
+      "answers": ["Red", "Blue", "Yellow", "Purple"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "What comedian played the role of the grinch in the 2000 film 'How the grinch stole christmas'?",
+      "answers": ["Drew Carey", "Will Ferrell", "Jim Carrey", "Neil Harris"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Which Actor starred as Dr John Doolittle in the 1998 Movie 'Dr.Dolittle'?",
+      "answers": ["Denzel Washington", "Eddie Murphy", "Wesley Snipes", "Will Smith"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "In which year was the 'Friday the 13th' released?",
+      "answers": ["1980", "1985", "1990", "1995"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "What is the name of the paper company they work at in 'The Office'?",
+      "answers": ["Dunebury Moff", "Dinder Moss", "Dunder Mifflin", "Dander Muffin"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "What does Michael's mug say in TV series 'The Office'?",
+      "answers": ["#1 Boss", "My employees love me", "Best Boss Ever", "World's Best Boss"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "Who played the role of Fantômas?",
+      "answers": ["Jean Marais", "Vincent Cassel", "Dominique Paturel", "Raymond Pellegrin"],
+      "goodAnswer": 0
+    },    
+    {
+      "question": "What is the name of the fictional island Jurassic Park is situated on?",
+      "answers": ["Koholint Island", "Isla Nublar", "Kohoo Island", "San Lorenzo"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Who is the leader of the Decepticons (Transformers)?",
+      "answers": ["Bumblebee", "Optimus Prime", "Shockwave", "Megatron"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "What does Optimus Prime (Transformers) transform into?",
+      "answers": ["Jet", "Race Car", "Truck", "Bus"],
+      "goodAnswer": 2
+    },
+    {
+      "question": " Dorothy lives (The Wizard of Oz) in a farm in..",
+      "answers": ["Atlanta", "Georgia", "California", "Kansas"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Why does Dorothy (The Wizard of Oz) run away from the farm?",
+      "answers": ["To save Toto from Miss Gulch", "To go to emeralnd City", "To see Oz", "To kill the witch"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "Who was the director of 'Mulholland Drive'?",
+      "answers": ["Robert Bresson", "Louis Malle", "David Lynch", "Stanley Kubrick"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "Which company distributed the movie 'Zodiac' in North America?",
+      "answers": ["Warner Bros.", "Paramount Pictures", "Universal", "Walt Disney"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "In which year was 'Parasite' released?",
+      "answers": ["2015", "2016", "2017", "2019"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Who are the two main characters in 'Once upon a time in...Hollywood (2019)'?",
+      "answers": ["Rick Dalton/Cliff Booth", "Marvin Schwarz/Cliff Booth", "Marvin Schwarz/Rick Dalton", "James Stacy/Tex Watson"],
+      "goodAnswer": 0
+    },       
+    {
+      "question": "What's Black Panther's name?",
+      "answers": ["King Shuri", "King T'Challa", "King KiKi", "Erik Killmonger"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "What was Borat's job?",
+      "answers": ["Unemployed", "Talk Show Host", "Journalist", "Photographer"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "What year was 'Casino Royale' released?",
+      "answers": ["2001", "2008", "2003", "2006"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "What planet did Alf come from?",
+      "answers": ["Melmac", "Saturn", "Dave", "Mars"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "What major U.S. city does the show 'Dexter' take place in?",
+      "answers": ["Los Angeles", "Miami", "Houston", "New Orlean"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "What is the name of the Jetson dog?",
+      "answers": ["Tommy", "Cosmo", "Astro", "Zeke"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Who started the Institute for mutants (X-Men) and has the ability to read minds?",
+      "answers": ["Professor Darkholme", "Professor Trask", "Professor Lensherr", "Professor Xavier"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Who plays the character of Mike Lowrey (Bad Boys)?",
+      "answers": ["Eddie Murphy", "Will Smith", "Chris Rock", "Danny Glover"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "What does Hakuna Matata (The Lion King) mean?",
+      "answers": ["No worries", "Have fun", "Be happy", "Time goes on"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "Who is Simba's (The Lion King) best friend?",
+      "answers": ["Timon", "Pumbaa", "Nala", "Zazu"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Who plays Jane Smith in the movie 'Mr & Mrs Smith'?",
+      "answers": ["Kerry Washington", "Rachael Huntley", "Angelina Jolie", "Michelle Monaghan"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "What is the name of Vivian's (Pretty Woman) best friend?",
+      "answers": ["Carlos", "Kee Kee", "Bambi", "Kit"],
+      "goodAnswer": 3
+    },  
+    {
+      "question": "What color was the banana mentioned in the name of the club (Pretty Woman)?",
+      "answers": ["Green", "Blue", "Red", "Yellow"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "Who was the first person on Dutch's team to be killed by the Predator?",
+      "answers": ["Hawkins", "Dutch", "Billy", "Poncho"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "What is Michelangelo’s (Teenage Mutant Ninja Turtles) weapon of choice?",
+      "answers": ["Swords", "Nunchucks", "Sai", "Bow staff"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Who is the Ninja Turtles’ father figure?",
+      "answers": ["Pointer", "Scooter", "Splinter", "Shredder"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "What was the town called in Stranger Things?",
+      "answers": ["Pleasantville", "Greentown", "Springwood", "Hawkins"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Who played Dr Watson in the TV BBC series Sherlock Holmes?",
+      "answers": ["Martin Freeman", "Benedict Cumberbatch", "Keanu Reeves", "Rupert Graves"],
+      "goodAnswer": 0
+    },   
+    {
+      "question": "John Wick is known by a monstrous nickname. What is it?",
+      "answers": ["The Grim Reaper", "Baba Yaga", "The Shadow", "The Ghost"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "Who plays Geralt of Rivia on Netflix series 'The Witcher'?",
+      "answers": ["Henry Cavill", "Keanu Reeves", "Chris Evans", "Matt Damon"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "In which blockbuster did Anthony Perkins first appear as Norman Bates?",
+      "answers": ["Dr. No", "Breakfast at Tiffany's", "Psycho", "Bulllitt"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Which 2005 film tells the story of a lion, a hippo, a zebra and a giraffe who escape from Central Park Zoo?",
+      "answers": ["Open Season", "Shark Tale", "Jurassic Park", "Madagascar"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "What is the current highest-grossing film of all time?",
+      "answers": ["Avengers Endgame", "Avatar", "Furious 7", "Minions"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "Where does the film 'Inception' open?",
+      "answers": ["On a Beach", "In a City", "Underground", "In a Forest"],
+      "goodAnswer": 0
+    }, 
+
+    {
+      "question": "What is Bill Murray’s occupation in Groundhog Day?",
+      "answers": ["Dentist", "Schoolteacher", "Weatherman", "Salesman"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "In what movie did Jennifer Aniston’s boss ask her to wear 37 pieces of flair?",
+      "answers": ["She’s the One", "Friends With Money", "Along Came Polly", "Office Space"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Which actor played Voldemort in Harry Potter?",
+      "answers": ["Daniel Radcliffe", "Ralph Fiennes", "Rupert Grint", "Alan Rickman"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "What is the name of SpongeBob town?",
+      "answers": ["Bikini Bottom", "Atlantis", "Shell City", "Tentacle Acres"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "What nationality is Charlie Chaplin?",
+      "answers": ["American", "Italian", "British", "Swedish"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "Why Did Katniss (The Hunger Games) volunteer to go to the Games?",
+      "answers": ["So she could be the champion ", "So she could be with peeta", "To become famous", "To save her sister's life"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "What kind of movie is Ted?",
+      "answers": ["Horror", "Comedy", "Sci-fi", "Action"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "What is the name of Woody's owner in Toy Story?",
+      "answers": ["Andy", "Andrew", "Mark", "Ryan"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "In what movie did Arnold Schwarzenegger pretend to be a teacher?",
+      "answers": ["Twins", "The Terminator", "Kindergarten Cop", "Collateral Damage"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "Which one of these is a comedy series?",
+      "answers": ["YOU", "Orange is the New Black", "Grey's Anatomy", "The Witcher"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Which one of these is NOT a horror series?",
+      "answers": ["The Chilling Adventures of Sabrina", "The Haunting House on the Hills", "The Walking Dead", "Stranger Things"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "What’s the address of Sherlock Holmes and Dr. Watson’s apartment?",
+      "answers": ["221b Baker Street", "221b Broadway", "21p Brick Lane", "121b Baker Street"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "From the show 'Friends' What’s Joey’s catchphrase?",
+      "answers": ["Could this BE any more of a catchphrase", "I know!", "How you doin’?", "We were on a break!"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "What movie doesn't belong to Star Wars?",
+      "answers": ["The Empire Strikes Back", "Artificial Intellingence", "The Phantom Menace", "Return of the Jedi"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "What movie does Elsa come from?",
+      "answers": ["Frozen", "Spy Kid", "Charles Web", "Chicmunks"],
+      "goodAnswer": 0
+    },   
+    {
+      "question": "Where did Kevin's family travel to in Home Alone?",
+      "answers": ["Los Angeles", "London", "New York", "Paris"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "What’s the name of Charlie Chaplin’s most famous, recurring character?",
+      "answers": ["The Dictator", "The Musician", "The Tramp", "The Acrobat"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "What Woman Has Won The Most Oscars?",
+      "answers": ["Katharine Hepburn", "Kate Winslet", "Sally Field", "Jennifer Lawrence"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "Who Sang Bang Bang (My Baby Shot Me Down) On The Kill Bill Soundtrack?",
+      "answers": ["Nancy Barbato", "Nancy Sinatra", "Frank Sinatra Jr.", "AJ Lambert"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "From which british TV series is Idris Elba known from?",
+      "answers": ["One of Us", "Broadchurch", "Bodyguard", "Luther"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "How does Goldfinger have Jill Masterson killed?",
+      "answers": ["His hunting dogs maul her", "Throws her in pool of piranhas", "Paints her skin gold", "Drowns her in water bed"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "What is Q's (James Bond) first name?",
+      "answers": ["Algernon", "Cuthbert", "Horatio", "Quentin"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "What is the last surviving dragon in Game of Thrones?",
+      "answers": ["Bronn", "Drogon", "Rhaegal", "Viserion"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Home Alone 2: Lost in New York: Which US President gives Kevin McAllister directions?",
+      "answers": ["Bill Clinton", "Barack Obama", "George W.Bush", "Donald Trump"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "Which object is stuck in Puss in Boots' (Shrek 2) hat?",
+      "answers": ["A Fluffy Feather", "A Pencil", "A Ribbon", "A Sandwich"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "What type of sweet jumps out of Harry's (Harry Potter) hand on the train?",
+      "answers": ["Mystic Curly Wurly", "Magic Bubblegum", "Chocolate Frog", "Jellybeans"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "How many Jumanji films have been made so far? (up to 2021)",
+      "answers": ["2", "3", "4", "7"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "How many 'golden tickets' were hidden inside Wonka (Willy Wonka) bars?",
+      "answers": ["3", "5", "8", "10"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Paddington: Where does he keep his marmalade sandwiches?",
+      "answers": ["In his duffle coat pocket", "In his satchel", "In a lunch box", "Under his hat"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "To which year does Marty McFly (Back to the Future) travel back in time?",
+      "answers": ["1955", "1984", "1919", "1976"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "'You better start believing in ghost stories Miss Turner, you're in one!'.From which movie is this quote?",
+      "answers": ["Up", "Pirates of The Caribbean", "The Matrix Reloaded", "Night At The Museum"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "1996's box office hit 'Matilda' was based on a book by which author?",
+      "answers": ["Enid Blyton", "Robin Stevens", "Roald Dahl", "Mary Norton"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "What sort of animal was Stuart in 1999's 'Stuart Little'?",
+      "answers": ["Fly", "Badger", "Rat", "Mouse"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "Which actor most famously plays Wolverine?",
+      "answers": ["Hugh Jackman", "Mark Ruffalo", "Chris Hemsworth", "Ian Mckellen"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "Which actor played the role of Deadpool?",
+      "answers": ["Tom Holland", "Ryan Reynolds", "Dwayne Johnson", "Nick Bateman"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "'If he were any cooler, he'd still be frozen, baby'. Who said that words?",
+      "answers": ["Johnny English", "Borat", "Austin Powers", "Agent Cody Banks"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "Which Classic 1980s Movie Features The Character 'Johnny Castle'?",
+      "answers": ["Batman", "The Untouchables", "Coming to America", "Dirty Dancing"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "Who played detective Rick Deckard in Blade Runner?",
+      "answers": ["Harrison Ford", "Burt Reynolds", "Clint Eastwood", "John Belushi"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "Who directed 'Requiem For a Dream'?",
+      "answers": ["Edgar Wright", "Darren Aronofsky", "Spike Lee", "Michael Bay"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Excluding 'the',which word appears the most often in Bond film titles?",
+      "answers": ["Day", "Secret", "Never", "Kill"],
+      "goodAnswer": 2
+    },
+    {
+      "question": " Which movie star is killed off in the opening scene of 'Scream?'",
+      "answers": ["Michael J.Fox", "Courteney Cox", "Skeet Ulrich", "Drew Barrymore"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "Which James Bond film had its release postponed twice due to Covid-19?",
+      "answers": ["No Time to Die", "Die Another Day", "Live and Let Die", "Tomorrow Never Dies"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "Which 2020 film starring Robert Downey Jr tells the story of a physician who can talk to animals?",
+      "answers": ["Zookeeper", "Dolittle", "Chances Are", "Babe"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Once Upon A Time In Hollywood is Tarantino's 9th movie. Which of his movies has made the most money at the worldwide box office?",
+      "answers": ["Django Unchained", "Inglorious Basterds", "Pulp Fiction", "Kill Bill Vol.1"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "'The Nun' is from which movie franchise?",
+      "answers": ["The Exorcist", "Friday the 13th", "The Conjuring", "Scream"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "Kenneth Branagh stars as which detective in the 'Murder on the Orient Express'?",
+      "answers": ["Philip Marlowe", "Sam Spade", "Sherlock Holmes", "Hercule Poirot"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "Who played Mad Max before Tom Hardy?",
+      "answers": ["Kevin Costner", "Mel Gibson", "Keanu Reeves", "Kurt Russell"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Which gangster was played by Johnny Depp in the movie 'Black Mass'?",
+      "answers": ["Bugs Moran", "John Dillinger", "Frank Lucas", "James 'Whitey' Bulger"],
+      "goodAnswer": 3
+    },
+    {
+      "question": "Which of the following movies does NOT feature Bruce Willis?",
+      "answers": ["Resident Evil Extinction", "Sin City", "Die Hard", "The Fifth Element"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "What does the psychopath killer call himself in the 'Dirty Harry (1971)'?",
+      "answers": ["Lester", "Charles", "Scorpio", "John"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "What is the name of Kathy Bates' character in 'Misery'?",
+      "answers": ["Carrie", "Annie", "Ava", "Sophia"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "The five best friends in 'American Pie' are Jim, Kevin, Oz, Finch and...",
+      "answers": ["Finch's Mom", "Bobby", "Jackson", "Stifler"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "In 'Mamma Mia' how many fathers does Sophia have?",
+      "answers": ["0", "1", "3", "4"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Who sang 'Oh Pretty Woman' from the film 'Pretty Woman'?",
+      "answers": ["Roy Orbison", "Buddy Holly", "Elton John", "Bryan Adams"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "In which film does King Julien appear?",
+      "answers": ["The Lion King", "Madagascar", "The Lion King", "The Jungle Book"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "Which James Bond actor was in the film 'Lara Croft: Tomb Raider'?",
+      "answers": ["Timothy Dalton", "Perce Brosnan", "Sean Connery", "Daniel Craig"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "What's the first rule of Fight Club?",
+      "answers": ["No slapping", "There are no rules", "Don't talk about fight club", "Only two guys fight"],
+      "goodAnswer": 2
+    },
+    {
+      "question": "In 'The Hangover', where is Doug finally found?",
+      "answers": ["Caesar's Palace Roof", "Elevator", "Burried in the ground", "Police Station"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "What was the name of character played by Humphrey Bogart in the movie 'Casablanca'?",
+      "answers": ["Ryan", "Rick", "Juan", "James"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "In which of these films did Meg Ryan and Tom Hanks played together?",
+      "answers": ["Cast Away", "Inferno", "French Kiss", "Sleepless in Seattle"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "What car crashed Leonardo DiCaprio in the famous scene after taking drugs (The Wolf of Wall Street)?",
+      "answers": ["Ferrari", "Bentley", "Lamborghini", "Porsche"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Finish the title of the movie: 'Texas...'",
+      "answers": ["Ranger", "Guardian", "Warrior", "Protector"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "Finish the title of the TV show: That '__s Show",
+      "answers": ["60", "70", "80", "90"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "Finish the title of the movie: 'Fantastic Beasts And Where To _____ Them'",
+      "answers": ["Catch", "Explore", "Trap", "Find"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Finish the title of the movie: 'We're the _____'",
+      "answers": ["Johnsons", "Herberts", "Millers", "Parkers"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Finish the title of the movie: 'Mary Poppins _____",
+      "answers": ["Returns", "Signs", "Arrives", "Dances"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "Finish the title of the movie: 'A ____ Mind",
+      "answers": ["Mediocre", "Beatiful", "Hideous", "Worst"],
+      "goodAnswer": 1
+    },
+    {
+      "question": "Who sang the theme song from Titanic?",
+      "answers": ["Barbra Streisand", "Beyonce", "Madonna", "Celine Dion"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "What subject does Professor Snape (Harry Pottter) teach?",
+      "answers": ["Defense Against the Dark Arts", "Charms", "Potions", "History of Magic"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Who played Cooper in Interstellar?",
+      "answers": ["Matthew McConaughey", "Jason Statham", "Jake Gyllenhaal", "Woody Harrelson"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "How does William Wallace die in the Oscar-winning movie Braveheart?",
+      "answers": ["He was beheaded","He was hanged","He was shot","He didn't die"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "In which country was the movie 'Throne of Blood (1957)' produced?",
+      "answers": ["Croatia", "Germany", "Italy", "Japan"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "In which of these films did Christian Bale not play?",
+      "answers": ["The Illusionist", "The Prestige", "American Psycho", "The Dark Knight"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "Which series was first produced by Netflix and debuted on January 1, 2013?",
+      "answers": ["Bojack Horseman", "Orange Is the New Black", "House of Cards", "Narcos"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Which famous director was the creator of 'Mindhunter'?",
+      "answers": ["Martin Scorsese", "David Fincher", "James Cameron", "Guy Ritchie"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "What year was the first Sopranos episode aired?",
+      "answers": ["1982", "1990", "1999", "2008"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "What was the top-grossing film of the decade",
+      "answers": ["E.T. the Extra-Terrestrial (1982)", "Return of the Jedi (1983)","Batman (1989)", "The Empire Strikes Back (1980)"],
+      "goodAnswer": 0
+    },
+    {
+      "question": "In which of this movies Johnny Depp did NOT play??",
+      "answers": ["Arizona Dream", "Alice in Wonderland", "Edward Scissorhands", "Revolutionary Road"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "In which blockbuster did John Travolta first appear?",
+      "answers": ["Pulp Fiction", "Ace Ventura: Pet Detective", "Forrest Gump", "Saturday Night Fever"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "In which city do most of Woody Allen's movies take place?",
+      "answers": ["Philadelphia", "New York", "Washington", "Rome"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "The movie 'The Shawshank Redemption' is based on the book from:",
+      "answers": ["Stephen King", "E. L. James", "Dean Koontz", "Dan Brown"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "'Fight Club', 'Inglourious Basterds' and 'The Curious Case of Benjamin Button' - who starred in these three films?",
+      "answers": ["Leonardo DiCaprio", "Bradley Cooper", "Brad Pitt", "Edward Norton"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "Complete the title of Sergio Leone film titled: Once Upon a Time in ____",
+      "answers": ["Europe", "Africa", "Australia", "America"],
+      "goodAnswer": 3
+    }, 
+    {
+      "question": "Complete the title of Peter Weir film titled: Dead ____ Society",
+      "answers": ["Painters", "Poets", "Writers", "Musicians"],
+      "goodAnswer": 1
+    }, 
+    {
+      "question": "Complete the title of Kevin Costner film titled: Dances with ____",
+      "answers": ["Coyotes", "Sheeps", "Wolves", "Lions"],
+      "goodAnswer": 2
+    }, 
+    {
+      "question": "What series do you associate these words with: 'Owl', 'Stump', 'Cake'?",
+      "answers": ["Twin Peaks", "Dark", "Westworld", "The Walking Dead"],
+      "goodAnswer": 0
+    }, 
+    {
+      "question": "What is Dr House addicted to?",
+      "answers": ["Morphine", "LSD", "Gambling", "Vicodin"],
+      "goodAnswer": 3
+    }
+ ]    
+  
+
+ 

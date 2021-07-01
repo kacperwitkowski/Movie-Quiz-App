@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Movie Quiz</title>
+ <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+ <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="logo">
+         <img src="./img/logo.png" alt="logo">
+        </div>
+        <p class="menu-show"><img src="./svg/dollar.svg" alt="prizes"></p>
+        <div class="game-board">
+        <div class="footer">&copy; All rights reserved by <a href="https://github.com/kacperwitkowski">Kacper Witkowski</a></div>
+        </div>  
+        <div class="helpers">
+            <button class="askWalter"><img src="./svg/walter.svg" alt="Ask Walter White">
+            <audio class="breaking-audio audio" src="./audio/breakingintro.mp3"></audio>
+            </button>
+            <button class="fiftyFifty">50/50<audio class="halfHalf audio" src="./audio/halfhalfsound.mp3"></audio>
+            </button>
+            <button class="askDarkKnight"><img src="./img/bat.png" alt="Ask Batman">
+            <audio class="batman-audio audio" src="./audio/batman-transition.mp3"></audio>
+            </button>
+            <button class="askAudience"><img src="./img/audience.png" alt="Ask Audience"></button>
+        </div>
+        <div class="question">
+        <div class="question--container">
+            <div class="question--text"></div>
+        </div>
+         <div class="answers">
+             <div class="answers--1-2">
+                 <button class="answers--single answers--1" data-answer="0"></button>
+                 <button class="answers--single answers--2" data-answer="1"></button>
+             </div>
+             <div class="answers--3-4">
+                 <button class="answers--single answers--3" data-answer="2"></button>
+                 <button class="answers--single answers--4" data-answer="3"></button>
+             </div>
+         </div>
+         </div>
+
+         <div class="loading batman-loading"><img src="./img/Batman-Logo.png"/></div>
+         <aside class="prize-table"></aside>
+         
+ <audio id="wrong-answer" class="audio" src="./audio/wrong-answer.mp3"></audio>
+ <audio id="correct-answer" class="audio" src="./audio/correct-answer.mp3"></audio>
+ <audio class="final-answer audio" src="./audio/final-answer.mp3"></audio>
+
+<div class="top-buttons">
+    <a class="sounds-switch"><span></span></a>
+    <a href="#"><img class="stats-btn" src="./svg/statistics.svg" alt="statistics icon"></a>
+    <a href="#"><img class="info-btn" src="./svg/info.svg" alt="info icon"></a>
+</div>
+
+<div class="statistics">
+    <div class="statistics--content">
+    <span class="statistics--close">&times;</span>
+<h3>Your statistics: </h3>
+<p class="wins">Total of wins: <span class="wins--span"> 0</span></p>
+<p class="loses">Total of loses: <span class="loses--span"> 0</span></p>
+<button class="statistics--reset">Reset Stats</button>
+    </div>
+</div>
+
+<div class="info">
+  <div class="info--content">
+    <span class="info--close">&times;</span>
+    <h3>Welcome to my version of the game 'Who Wants To Be A Millionaire'!</h3>
+    <h4>All questions in this game are related to movies, series and TV shows. To win you have to answer correctly on 12 random questions.</h4>
+    <p>Good luck!</p>
+    <div class="info--helpers">
+<img src="./svg/speaker.svg" alt="Speaker Icon"> <p>By clicking in this button you can mute/unmute sound in the game. I recommend for better experience playing with sound.</p>  
+<img src="./svg/audience.svg" alt="Audience Icon"><p> Ask Audience - People should point you most often good answers but remember no one is perfect.</p>  
+<img class="batman-icon" src="./svg/batman.svg" alt="Batman Logo"> <p>Ask Dark Knight - You might be lucky and get an answer from him but not always he's in mood, keep that in mind...</p>  
+<img src="./svg/fifty.svg" alt="Fifty Fifty Icon"><p>Fifty/Fifty - Half stay/half goes. Simple as that.</p>  
+<img class="walter-icon" src="./svg/walter.svg" alt="Walter White Icon"><p>Ask Walter White - Mr. White, as befits a professor, will do whatever he can to help you, unless he is gently busy...</p>
+    </div>
+</div>
+</div>
+
+<div class="menubar">
+    <aside class="navigation">
+<span class="navigation--close">&times;</span>
+    </aside>
+</div>
+</div>
+<div class="batman">
+ <div class="batman--content">
+   <span class="batman--close">&times;</span>
+ </div>
+</div>
+<div class="walter"></div>
+<div class="walter--modal">
+ <div class="walter--modal__content">
+   <span class="walter--modal__close">&times;</span>
+ </div>
+</div>
+<div class="lose">
+    <div class="lose--content">
+    <audio class="lose-sound audio" src="./audio/wheresmymoney.mp3"></audio>
+    <h2 class="lose--h2">You lose</h2>
+    <button class="lose--btn">Play again!</button>
+</div>
+</div>
+<div class="win">
+    <div class="win--content">
+    <audio class="win-sound audio" src="./audio/herecomesthemoney.mp3"></audio>
+    <h2 class="win--h2">You win</h2>
+    <button class="win--btn">Play again!</button>
+</div>
+</div>
+ <script src="./script.js"></script>
+</body>
+</html>
