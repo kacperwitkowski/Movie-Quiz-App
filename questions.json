@@ -1090,7 +1090,7 @@
     }, 
     {
       "question": "In which film does King Julien appear?",
-      "answers": ["The Lion King", "Madagascar", "The Lion King", "The Jungle Book"],
+      "answers": ["The Lion King", "Madagascar", "Dolittle", "The Jungle Book"],
       "goodAnswer": 1
     }, 
     {

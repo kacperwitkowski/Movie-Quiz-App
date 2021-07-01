@@ -566,10 +566,13 @@ border: 3px solid #00C1BC;
    grid-row: 1/2;
    justify-self: center;
    align-self: center;
-     width: 50px;
-  margin-right: 10px;
-  cursor: pointer;
   display: none;
+
+  & img {
+    width: 50px;
+  cursor: pointer;
+  margin-right: 10px;
+  }
  }
 
 .win,.lose {

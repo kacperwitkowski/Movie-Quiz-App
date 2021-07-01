@@ -19,7 +19,7 @@ function gameRoutes(app) {
     let question = questions[randomQuestion];
     const isGoodAnswer = question.goodAnswer === Number(index);
 
-    if (counter === 3) {
+    if (counter === 12) {
       isWin = true;
       questions.splice(randomQuestion, 1);
       randomQuestion = Math.floor(Math.random() * questions.length);
@@ -41,7 +41,7 @@ function gameRoutes(app) {
       correct: isGoodAnswer ? true : false,
       counter,
       isGameOver: isGoodAnswer ? false : true,
-      isWin: counter === 3 ? true : false,
+      isWin: counter === 12 ? true : false,
     });
   });
 
