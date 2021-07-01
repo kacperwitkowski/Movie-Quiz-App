@@ -90,11 +90,15 @@ function handleAnswer(data) {
       answerButtons.forEach((btn) => {
         btn.style.backgroundColor = "red";
       });
+      finalAnswer.pause();
+      finalAnswer.currentTime = 0;
       wrongAnswerAudio.play();
       wrongAnswerAudio.volume = 0.3;
     }, 2499);
   } else {
     setTimeout(() => {
+      finalAnswer.pause();
+      finalAnswer.currentTime = 0;
       correctAnswerAudio.play();
       correctAnswerAudio.volume = 0.3;
     }, 2500);
@@ -173,7 +177,7 @@ function handleAnswer(data) {
       btn.classList.remove("crossed");
     });
     showNextQuestion();
-  }, 4000);
+  }, 4200);
 }
 
 function sendAnswer(answerIndex) {
@@ -199,8 +203,6 @@ answerButtons.forEach((btn) => {
     let clickedBtn = e.target.closest("button");
     clickedBtn.style.backgroundColor = "orange";
     setTimeout(() => {
-      finalAnswer.pause();
-      finalAnswer.currentTime = 0;
       clickedBtn.style.backgroundColor = "green";
     }, 2500);
   });
