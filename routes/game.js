@@ -18,6 +18,7 @@ function gameRoutes(app) {
     const { index } = req.params;
     let question = questions[randomQuestion];
     const isGoodAnswer = question.goodAnswer === Number(index);
+    let goodAnswer = question.goodAnswer;
 
     if (counter === 12) {
       isWin = true;
@@ -42,6 +43,7 @@ function gameRoutes(app) {
       counter,
       isGameOver: isGoodAnswer ? false : true,
       isWin: counter === 12 ? true : false,
+      goodAnswer: goodAnswer,
     });
   });
 

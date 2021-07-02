@@ -82,14 +82,12 @@ const p2 = Array.from(document.querySelectorAll(".prize-table--p2"));
 
 function handleAnswer(data) {
   answerButtons.forEach((btn) => (btn.disabled = "true"));
-
   const currCount = data.counter;
 
   if (!data.correct) {
     setTimeout(() => {
-      answerButtons.forEach((btn) => {
-        btn.style.backgroundColor = "red";
-      });
+      answerButtons[data.goodAnswer].style.backgroundColor = "green";
+
       finalAnswer.pause();
       finalAnswer.currentTime = 0;
       wrongAnswerAudio.play();
@@ -97,6 +95,7 @@ function handleAnswer(data) {
     }, 2499);
   } else {
     setTimeout(() => {
+      answerButtons[data.goodAnswer].style.backgroundColor = "green";
       finalAnswer.pause();
       finalAnswer.currentTime = 0;
       correctAnswerAudio.play();
@@ -140,7 +139,7 @@ function handleAnswer(data) {
         loseSpan.innerText = numofloses;
       });
     }
-  }, 3800);
+  }, 4300);
   setTimeout(() => {
     if (data.isWin) {
       app.style.display = "none";
@@ -169,7 +168,7 @@ function handleAnswer(data) {
         winsSpan.innerText = numofwins;
       });
     }
-  }, 3700);
+  }, 4300);
 
   setTimeout(() => {
     answerButtons.forEach((btn) => {
@@ -177,17 +176,7 @@ function handleAnswer(data) {
       btn.classList.remove("crossed");
     });
     showNextQuestion();
-  }, 4200);
-}
-
-function sendAnswer(answerIndex) {
-  fetch(`/answer/${answerIndex}`, {
-    method: "POST",
-  })
-    .then((res) => res.json())
-    .then((data) => {
-      handleAnswer(data);
-    });
+  }, 4400);
 }
 
 answerButtons.forEach((btn) => {
@@ -203,10 +192,20 @@ answerButtons.forEach((btn) => {
     let clickedBtn = e.target.closest("button");
     clickedBtn.style.backgroundColor = "orange";
     setTimeout(() => {
-      clickedBtn.style.backgroundColor = "green";
+      clickedBtn.style.backgroundColor = "red";
     }, 2500);
   });
 });
+
+function sendAnswer(answerIndex) {
+  fetch(`/answer/${answerIndex}`, {
+    method: "POST",
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      handleAnswer(data);
+    });
+}
 
 const walterModal = document.querySelector(".walter--modal");
 

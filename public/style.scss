@@ -665,19 +665,19 @@ display: flex;
   margin:15px 0;
 }
 
-.game-board {
-  min-height: 105vh;
-}
+.question {
+align-self: flex-start;
+
 .question--text {
   width: 90%;
 }
-
+}
 .helpers {
   padding: 0px;
 }
 
-.footer {
-  grid-row: 4/-1;
+.helpers button:hover {
+  background-color: none;
 }
 
 .info--helpers {
@@ -771,6 +771,7 @@ font-size: 22px;
 
 .game-board {
   grid-column: 1/-1;
+  min-height: 105vh;
 }
 
 .prize-table {
@@ -910,8 +911,6 @@ height: 60px;
 }
 
 .question{
-align-self: flex-start;
-
 
 &--text {
   font-size: 20px;
