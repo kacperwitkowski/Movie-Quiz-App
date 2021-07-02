@@ -174,12 +174,13 @@ body, html { padding: 0; margin: 0; -webkit-box-sizing: border-box; box-sizing: 
 
 .navigation--open { display: -webkit-box; display: -ms-flexbox; display: flex; z-index: 102; -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
+@media (max-width: 1366px) { .answers--single:hover { background-color: transparent; } }
+
 @media (max-width: 1020px) { .answers--1-2, .answers--3-4 { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
   .answers--single { min-width: 95%; margin: 15px 0; }
   .question { -ms-flex-item-align: start; align-self: flex-start; }
   .question .question--text { width: 90%; }
   .helpers { padding: 0px; }
-  .helpers button:hover { background-color: none; }
   .info--helpers { display: block; }
   .walter { background-size: 200% 100%; background-position: bottom; }
   .info { width: 100%; height: auto; }

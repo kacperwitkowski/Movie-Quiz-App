@@ -155,6 +155,7 @@ transition: .4s;
 &--single:hover {
     background-color: lightgrey;
 }
+
 }
 
 .thought {
@@ -656,6 +657,14 @@ display: flex;
 }
 }
 
+@media (max-width: 1366px) {
+
+  .answers--single:hover {
+    background-color: transparent;
+  }
+}
+
+
 @media (max-width: 1020px) {
 .answers--1-2,.answers--3-4 {
   flex-direction: column;
@@ -663,6 +672,8 @@ display: flex;
 .answers--single {
   min-width: 95%;
   margin:15px 0;
+
+
 }
 
 .question {
@@ -676,9 +687,7 @@ align-self: flex-start;
   padding: 0px;
 }
 
-.helpers button:hover {
-  background-color: none;
-}
+
 
 .info--helpers {
   display: block;
