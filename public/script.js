@@ -9,6 +9,14 @@ const navigation = document.querySelector(".navigation");
 const winsSpan = document.querySelector(".wins--span");
 const loseSpan = document.querySelector(".loses--span");
 
+document.body.addEventListener("touchstart", () => {
+  for (let audio of audioList) {
+    audio.play();
+    audio.pause();
+    audio.currentTime = 0;
+  }
+});
+
 const prizeTable = [
   100, 500, 1000, 2500, 5000, 10000, 25000, 50000, 100000, 250000, 500000,
   1000000,
