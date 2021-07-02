@@ -9,7 +9,6 @@ const navigation = document.querySelector(".navigation");
 const winsSpan = document.querySelector(".wins--span");
 const loseSpan = document.querySelector(".loses--span");
 
-
 window.addEventListener("load", () => {
   let currCountNum = localStorage.getItem("currNumber");
 
@@ -57,7 +56,7 @@ document.querySelector(".statistics--reset").addEventListener("click", () => {
   winsSpan.innerText = 0;
 });
 
-document.body.addEventListener('touchstart', () => {
+document.body.addEventListener("touchend", () => {
   for (let audio of audioList) {
     audio.play();
     audio.pause();
@@ -488,5 +487,3 @@ document.querySelector(".navigation--close").addEventListener("click", () => {
   navigation.classList.remove("navigation--open");
   menubar.classList.remove("menubar--open");
 });
-
-
