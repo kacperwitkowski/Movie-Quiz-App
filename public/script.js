@@ -9,7 +9,55 @@ const navigation = document.querySelector(".navigation");
 const winsSpan = document.querySelector(".wins--span");
 const loseSpan = document.querySelector(".loses--span");
 
-document.body.addEventListener("touchstart", () => {
+
+window.addEventListener("load", () => {
+  let currCountNum = localStorage.getItem("currNumber");
+
+  for (i = 0; i < currCountNum; i++) {
+    p[i].style.backgroundColor = "#00C1BC";
+    p2[i].style.backgroundColor = "#00C1BC";
+  }
+
+  if (localStorage.getItem("clickedState") === "false") {
+    resetWalter(false);
+  }
+  if (localStorage.getItem("clickedState") === "true") {
+    resetWalter(true);
+  }
+  if (localStorage.getItem("clickedDarkKnight") === "false") {
+    resetDarkKnight(false);
+  }
+  if (localStorage.getItem("clickedDarkKnight") === "true") {
+    resetDarkKnight(true);
+  }
+  if (localStorage.getItem("clickedFiftyFifty") === "false") {
+    resetFiftyFifty(false);
+  }
+  if (localStorage.getItem("clickedFiftyFifty") === "true") {
+    resetFiftyFifty(true);
+  }
+  if (localStorage.getItem("clickedAskAudience") === "false") {
+    resetAskAudience(false);
+  }
+  if (localStorage.getItem("clickedAskAudience") === "true") {
+    resetAskAudience(true);
+  }
+
+  let numofwins = localStorage.getItem("numOfWins");
+  winsSpan.innerText = numofwins;
+
+  let numofloses = localStorage.getItem("numOfLoses");
+  loseSpan.innerText = numofloses;
+});
+
+document.querySelector(".statistics--reset").addEventListener("click", () => {
+  localStorage.setItem("numOfWins", 0);
+  localStorage.setItem("numOfLoses", 0);
+  loseSpan.innerText = 0;
+  winsSpan.innerText = 0;
+});
+
+document.body.addEventListener('touchstart', () => {
   for (let audio of audioList) {
     audio.play();
     audio.pause();
@@ -441,49 +489,4 @@ document.querySelector(".navigation--close").addEventListener("click", () => {
   menubar.classList.remove("menubar--open");
 });
 
-window.addEventListener("load", () => {
-  let currCountNum = localStorage.getItem("currNumber");
 
-  for (i = 0; i < currCountNum; i++) {
-    p[i].style.backgroundColor = "#00C1BC";
-    p2[i].style.backgroundColor = "#00C1BC";
-  }
-
-  if (localStorage.getItem("clickedState") === "false") {
-    resetWalter(false);
-  }
-  if (localStorage.getItem("clickedState") === "true") {
-    resetWalter(true);
-  }
-  if (localStorage.getItem("clickedDarkKnight") === "false") {
-    resetDarkKnight(false);
-  }
-  if (localStorage.getItem("clickedDarkKnight") === "true") {
-    resetDarkKnight(true);
-  }
-  if (localStorage.getItem("clickedFiftyFifty") === "false") {
-    resetFiftyFifty(false);
-  }
-  if (localStorage.getItem("clickedFiftyFifty") === "true") {
-    resetFiftyFifty(true);
-  }
-  if (localStorage.getItem("clickedAskAudience") === "false") {
-    resetAskAudience(false);
-  }
-  if (localStorage.getItem("clickedAskAudience") === "true") {
-    resetAskAudience(true);
-  }
-
-  let numofwins = localStorage.getItem("numOfWins");
-  winsSpan.innerText = numofwins;
-
-  let numofloses = localStorage.getItem("numOfLoses");
-  loseSpan.innerText = numofloses;
-});
-
-document.querySelector(".statistics--reset").addEventListener("click", () => {
-  localStorage.setItem("numOfWins", 0);
-  localStorage.setItem("numOfLoses", 0);
-  loseSpan.innerText = 0;
-  winsSpan.innerText = 0;
-});
