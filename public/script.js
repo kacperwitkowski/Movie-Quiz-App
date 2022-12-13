@@ -71,6 +71,7 @@ function showNextQuestion() {
     .then((r) => r.json())
     .then((data) => {
       fillQuestionElements(data);
+      // timer(data);
     });
   answerButtons.forEach((btn) => (btn.style.backgroundColor = ""));
 }
@@ -83,7 +84,6 @@ const p2 = Array.from(document.querySelectorAll(".prize-table--p2"));
 function handleAnswer(data) {
   answerButtons.forEach((btn) => (btn.disabled = "true"));
   const currCount = data.counter;
-
   if (!data.correct) {
     setTimeout(() => {
       answerButtons[data.goodAnswer].style.backgroundColor = "green";
@@ -103,14 +103,18 @@ function handleAnswer(data) {
     }, 2500);
     setTimeout(() => {
       let crCount = currCount - 1;
-      p[crCount].style.backgroundColor = "#00C1BC";
-      p2[crCount].style.backgroundColor = "#00C1BC";
+      p[crCount].style.backgroundColor = "lavender";
+      p2[crCount].style.backgroundColor = "lavender";
       colorCalculate(currCount);
     }, 3499);
   }
 
   setTimeout(() => {
     if (data.isGameOver) {
+      resetWalter(false);
+      resetDarkKnight(false);
+      resetFiftyFifty(false);
+      resetAskAudience(false);
       app.style.display = "none";
       loseScreen.style.display = "block";
       wrongAnswerAudio.pause();
@@ -126,15 +130,11 @@ function handleAnswer(data) {
       localStorage.setItem("numOfLoses", decreaseWins);
 
       document.querySelector(".lose--btn").addEventListener("click", () => {
-        location.reload();
         app.style.display = "grid";
         loseScreen.style.display = "none";
         loseSound.pause();
         loseSound.currentTime = 0;
-        resetWalter(false);
-        resetDarkKnight(false);
-        resetFiftyFifty(false);
-        resetAskAudience(false);
+
         let numofloses = localStorage.getItem("numOfLoses");
         loseSpan.innerText = numofloses;
       });
@@ -142,6 +142,10 @@ function handleAnswer(data) {
   }, 4300);
   setTimeout(() => {
     if (data.isWin) {
+      resetWalter(false);
+      resetDarkKnight(false);
+      resetFiftyFifty(false);
+      resetAskAudience(false);
       app.style.display = "none";
       winScreen.style.display = "block";
       winSound.play();
@@ -155,15 +159,11 @@ function handleAnswer(data) {
       localStorage.setItem("numOfWins", incraseWins);
 
       document.querySelector(".win--btn").addEventListener("click", () => {
-        location.reload();
         app.style.display = "grid";
         winScreen.style.display = "none";
         winSound.pause();
         winSound.currentTime = 0;
-        resetWalter(false);
-        resetDarkKnight(false);
-        resetFiftyFifty(false);
-        resetAskAudience(false);
+
         let numofwins = localStorage.getItem("numOfWins");
         winsSpan.innerText = numofwins;
       });
@@ -437,34 +437,34 @@ window.addEventListener("load", () => {
   let currCountNum = localStorage.getItem("currNumber");
 
   for (i = 0; i < currCountNum; i++) {
-    p[i].style.backgroundColor = "#00C1BC";
-    p2[i].style.backgroundColor = "#00C1BC";
+    p[i].style.backgroundColor = "lavender";
+    p2[i].style.backgroundColor = "lavender";
   }
 
-  if (localStorage.getItem("clickedState") === "false") {
-    resetWalter(false);
-  }
-  if (localStorage.getItem("clickedState") === "true") {
-    resetWalter(true);
-  }
-  if (localStorage.getItem("clickedDarkKnight") === "false") {
-    resetDarkKnight(false);
-  }
-  if (localStorage.getItem("clickedDarkKnight") === "true") {
-    resetDarkKnight(true);
-  }
-  if (localStorage.getItem("clickedFiftyFifty") === "false") {
-    resetFiftyFifty(false);
-  }
-  if (localStorage.getItem("clickedFiftyFifty") === "true") {
-    resetFiftyFifty(true);
-  }
-  if (localStorage.getItem("clickedAskAudience") === "false") {
-    resetAskAudience(false);
-  }
-  if (localStorage.getItem("clickedAskAudience") === "true") {
-    resetAskAudience(true);
-  }
+  // if (localStorage.getItem("clickedState") === "false") {
+  //   resetWalter(false);
+  // }
+  // if (localStorage.getItem("clickedState") === "true") {
+  //   resetWalter(true);
+  // }
+  // if (localStorage.getItem("clickedDarkKnight") === "false") {
+  //   resetDarkKnight(false);
+  // }
+  // if (localStorage.getItem("clickedDarkKnight") === "true") {
+  //   resetDarkKnight(true);
+  // }
+  // if (localStorage.getItem("clickedFiftyFifty") === "false") {
+  //   resetFiftyFifty(false);
+  // }
+  // if (localStorage.getItem("clickedFiftyFifty") === "true") {
+  //   resetFiftyFifty(true);
+  // }
+  // if (localStorage.getItem("clickedAskAudience") === "false") {
+  //   resetAskAudience(false);
+  // }
+  // if (localStorage.getItem("clickedAskAudience") === "true") {
+  //   resetAskAudience(true);
+  // }
 
   let numofwins = localStorage.getItem("numOfWins");
   winsSpan.innerText = numofwins;
