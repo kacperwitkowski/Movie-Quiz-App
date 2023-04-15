@@ -441,30 +441,30 @@ window.addEventListener("load", () => {
     p2[i].style.backgroundColor = "lavender";
   }
 
-  // if (localStorage.getItem("clickedState") === "false") {
-  //   resetWalter(false);
-  // }
-  // if (localStorage.getItem("clickedState") === "true") {
-  //   resetWalter(true);
-  // }
-  // if (localStorage.getItem("clickedDarkKnight") === "false") {
-  //   resetDarkKnight(false);
-  // }
-  // if (localStorage.getItem("clickedDarkKnight") === "true") {
-  //   resetDarkKnight(true);
-  // }
-  // if (localStorage.getItem("clickedFiftyFifty") === "false") {
-  //   resetFiftyFifty(false);
-  // }
-  // if (localStorage.getItem("clickedFiftyFifty") === "true") {
-  //   resetFiftyFifty(true);
-  // }
-  // if (localStorage.getItem("clickedAskAudience") === "false") {
-  //   resetAskAudience(false);
-  // }
-  // if (localStorage.getItem("clickedAskAudience") === "true") {
-  //   resetAskAudience(true);
-  // }
+  if (localStorage.getItem("clickedState") === "false") {
+    resetWalter(false);
+  }
+  if (localStorage.getItem("clickedState") === "true") {
+    resetWalter(true);
+  }
+  if (localStorage.getItem("clickedDarkKnight") === "false") {
+    resetDarkKnight(false);
+  }
+  if (localStorage.getItem("clickedDarkKnight") === "true") {
+    resetDarkKnight(true);
+  }
+  if (localStorage.getItem("clickedFiftyFifty") === "false") {
+    resetFiftyFifty(false);
+  }
+  if (localStorage.getItem("clickedFiftyFifty") === "true") {
+    resetFiftyFifty(true);
+  }
+  if (localStorage.getItem("clickedAskAudience") === "false") {
+    resetAskAudience(false);
+  }
+  if (localStorage.getItem("clickedAskAudience") === "true") {
+    resetAskAudience(true);
+  }
 
   let numofwins = localStorage.getItem("numOfWins");
   winsSpan.innerText = numofwins;
